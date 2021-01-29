@@ -7,7 +7,7 @@ const LanguageRender: React.FC<{ language: ILanguage }> = ({ language }) => {
     const HabilitiesBox = styled.div`
         width: 130px;
         height: 40px;
-        border: 1px solid rgb(${language.red}, ${language.green}, ${language.blue});
+        border: 1px solid rgb(${language.red || 0}, ${language.green || 0}, ${language.blue || 0});
         border-radius: 5px;
 
         margin-left: auto;
@@ -16,7 +16,7 @@ const LanguageRender: React.FC<{ language: ILanguage }> = ({ language }) => {
         transition: background-color 100ms;
 
         &:hover {
-            background-color: rgb(${language.red}, ${language.green}, ${language.blue});
+            background-color: rgb(${language.red || 0}, ${language.green || 0}, ${language.blue || 0});
         }
 
         div {
