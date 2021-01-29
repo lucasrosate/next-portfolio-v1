@@ -1,7 +1,6 @@
 {
   "name": "myportfoliov2",
   "version": "0.1.0",
-  "homepage": "https://lucasrosate.github.io/portfolio",
   "private": true,
   "babel": {
     "env": {
@@ -46,6 +45,7 @@
     "next": "10.0.5",
     "next-compose-plugins": "^2.2.1",
     "next-images": "^1.7.0",
+    "node": "^15.4.0",
     "postcss": "^8.2.4",
     "react": "17.0.1",
     "react-dom": "17.0.1",
