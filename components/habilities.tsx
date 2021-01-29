@@ -1,7 +1,7 @@
 import React from 'react';
 
 import LanguageRender from './languagerender';
-import style from '../../styles/habilities.module.css';
+import style from '../styles/habilities.module.css';
 
 const languages: ILanguage[] = [
     // <code>React, Node.js, Django, Python, Typescript, Javascript, .NET, MySQL,MongoDB, SQLite e HTML/CSS.</code>

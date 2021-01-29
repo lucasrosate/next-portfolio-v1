@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../../styles/imageproject.module.css';
+import style from '../styles/imageproject.module.css';
 import { GoX } from "react-icons/go";
 
 const ImageProject: React.FC<{ link: string, handleCloseWindowImage: Function }> = ({ link, handleCloseWindowImage }) => {

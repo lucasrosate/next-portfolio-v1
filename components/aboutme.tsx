@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../../styles/aboutme.module.css';
+import style from '../styles/aboutme.module.css';
 
 import github from '../assets/github.svg';
 import email from '../assets/email.svg';

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../../styles/projects.module.css';
+import style from '../styles/projects.module.css';
 import githubAccess from '../assets/githubAccess.svg';
 import ImageProject from './imageproject';
 

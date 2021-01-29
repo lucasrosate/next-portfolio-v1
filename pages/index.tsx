@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import AboutMe from './components/aboutme';
-import Habilities from './components/habilities';
-import Projects from './components/projects';
+import AboutMe from '../components/aboutme';
+import Habilities from '../components/habilities';
+import Projects from '../components/projects';
 import style from '../styles/index.module.css';
 
 
