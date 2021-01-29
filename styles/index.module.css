@@ -1,0 +1,14 @@
+.container {
+    font-family: "Libre Franklin";
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+
+  .container h1 {
+    font-family: "Source Code Pro";
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+  

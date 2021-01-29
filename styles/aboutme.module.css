@@ -1,0 +1,68 @@
+.container {
+  background-color: var(--background-color);
+  height: auto;
+}
+
+.landingLayout {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+  grid-template-rows: 450px;
+
+  align-items: center;
+
+  width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landingText {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.landingText h3 {
+  font-size: 2.7rem;
+  font-weight: 500;
+
+}
+
+.landingText h4 {
+  width: 100%;
+  font-size: 1.3rem;
+  text-align: justify;
+  font-weight: 300;
+  color: var(--text-color-2);
+  margin-top: 15px;
+
+  line-height: 160%;
+}
+
+.profileImage {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+.profileImage img {
+  margin-top: 3%;
+  border-radius: 50%;
+  width: 100%;
+  border: 1px solid rgb(255, 255, 255, .5);
+}
+
+.contacts {
+  display:block;
+  height: 50px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: 8%;
+  margin-top: 20px;
+}
+
+.contacts a {
+  margin-left: 18px;
+}
+
+.contacts a img {
+  width: 15%;
+}

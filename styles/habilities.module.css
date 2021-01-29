@@ -1,0 +1,29 @@
+.container {
+    padding-top: 15px;
+    height: auto;
+    background-color: var(--background-color);
+}
+
+.layoutboxcontainer {
+    width: 65vw;
+    margin: auto auto 0;
+}
+
+.container div h1 {
+    font-size: 1.8rem;
+}
+
+.languagecontainer {
+    width: 55vw;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+    gap: 60px 15px;
+
+    margin-bottom: 80px;
+}
