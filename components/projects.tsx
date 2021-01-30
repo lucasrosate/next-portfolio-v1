@@ -7,7 +7,7 @@ import ImageProject from './imageproject';
 const projects: Array<IProject> = [
     {
         title: "get-random-quotes",
-        images:[],
+        images: [],
         description: "CLI criado para gerar citações feitas por artistas com a opção de gerar e salvar em um banco de dados MySQL.",
         technologies: ["Node.js", "MySQL", "CLI"],
         accessLink: "https://github.com/lucasrosate/get-random-quotes",
@@ -15,7 +15,7 @@ const projects: Array<IProject> = [
     {
         title: "Fetch randomuser api",
         images: ["https://i.imgur.com/UHfrl4c.png"],
-        description: "Esse app accessar a página https://randomuser.me/api e gera uma page com o usuário resultante.",
+        description: "Esse app accessa uma api e gera uma page com o usuário resultante.",
         technologies: ["Next.js", "Redux", "Axios", "map-gl"],
         accessLink: "https://github.com/lucasrosate/fetch-randomuserapi-app",
     },
@@ -73,7 +73,7 @@ const Projects: React.FC = () => {
                                 <div>
                                     {project.description}
                                 </div>
-
+                                <div />
                                 <div>
                                     {
                                         project.technologies.map((techonology, index) =>
@@ -88,9 +88,12 @@ const Projects: React.FC = () => {
                             <div className={style.projectdetailsbox}>
                                 <div className={style.projectimages}>
                                     {project.images.map((imageSrc, imageId) =>
-                                        <img src={imageSrc}
-                                            key={imageId}
-                                            onClick={() => showImageFullSize(projectID, imageId)} />)}
+                                        <div>
+                                            <img src={imageSrc}
+                                                key={imageId}
+                                                onClick={() => showImageFullSize(projectID, imageId)} />
+                                        </div>
+                                    )}
                                 </div>
 
                                 <div className={style.githubAccess}>

@@ -37,13 +37,13 @@
     font-size: 1.5rem;
 
     padding-bottom: 5px;
-    width: 30%;
+    width: 45%;
 }
 
 .layoutbox {
     padding: 10px 15px 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 5fr 1fr 5fr;
     grid-template-rows: 150px;
 
 }
@@ -51,7 +51,7 @@
 .layoutbox div {
     line-height: 180%;
     font-size: 1.1rem;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     
     text-align: justify;
@@ -71,6 +71,7 @@
     background-color: var(--background-color-lighter);
 }
 
+
 .projectimages {
 
     margin-left: auto;
@@ -83,13 +84,19 @@
     align-items: center;
 }
 
-.projectimages img {
+.projectimages div {
+    width: 80px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.projectimages div img {
     height: 100%;
     cursor: pointer;
     transition: transform 100ms;
 }
 
-.projectimages img:hover {
+.projectimages div img:hover {
     transform: scale(1.1);
 }
 
@@ -107,4 +114,35 @@
 
 .githubAccess img:hover {
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 1100px) {
+    .projectscontainer {
+        width: 95vw;
+    }
+
+    .projectsbox {
+        width: 90%;
+    }
+
+    .projectsbox h2 {
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .layoutbox {
+        grid-template-rows: 190px;
+    }
+    .layoutbox div {
+        width: 95%;
+        font-size: 1.0rem;
+    }
+
+    .projectimages div {
+        width: 60px;
+        height: 40px;
+    }    
+
+    .githubAccess img {
+        width: 30px;
+    }
 }

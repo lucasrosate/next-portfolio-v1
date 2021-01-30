@@ -66,3 +66,27 @@
 .contacts a img {
   width: 15%;
 }
+
+@media screen and (max-width: 900px) {
+  .container h1 {
+    padding: 20px 30px;
+  }
+
+  .landingLayout {
+    width: 95vw;
+    display: block;
+  }
+
+  .landingText h3 {
+    width: 100%;
+    font-size: 1.8rem;
+  }
+
+  .landingText h4 {
+    font-size: 1.2rem;
+  }
+
+  .profileImage {
+    width: 200px;
+  }
+}

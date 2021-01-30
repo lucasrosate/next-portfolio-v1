@@ -27,3 +27,14 @@
 
     margin-bottom: 80px;
 }
+
+@media screen and (max-width: 900px) {
+    .layoutboxcontainer {
+        width: 95vw;
+    }
+    .languagecontainer {
+        width: 95vw;
+        gap: 25px 20px;
+        justify-content: center;
+    }
+}
