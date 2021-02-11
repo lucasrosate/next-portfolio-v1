@@ -41,7 +41,7 @@ const AboutMe: React.FC = () => {
 
                     <h4>
                         Sou estudante de engenharia fascinado por programação.
-                        No tempo livre sempre busco estudar temas majoritariamente relacionados à esse ramo.
+                        No tempo livre programação é um dos meus hobbies preferidos, abaixo estão listados os projetos que eu fiz recentemente, espero que gostem 🙂.
                         </h4>
                 </div>
 
