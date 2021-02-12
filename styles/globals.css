@@ -8,6 +8,9 @@
     --border-line-more-visible: rgb(249, 249, 249, .6)
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
 
 * {
     margin: 0;
