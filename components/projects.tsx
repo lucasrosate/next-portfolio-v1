@@ -9,7 +9,7 @@ const projects: Array<IProject> = [
         title: "4life",
         images: ["https://i.imgur.com/8e0ltt7.png", "https://i.imgur.com/hiNNAGg.png", "https://i.imgur.com/GG6sfQf.png", "https://i.imgur.com/zMIOsni.png"],
         description: "A ideia era criar um app para organizar tarefas, a vida financeira e também para cuidar da alimentação.",
-        technologies: ["React.js", "Express.js", "Node.JS", "Dropbox SDK", "MongoDB"],
+        technologies: ["React.js", "Redux", "styled-components", "Axios", "Express.js", "Node.JS", "GoogleApi", "Mongoose", "Dropbox SDK", "nodemailer"],
         accessLink: "https://github.com/lucasrosate/4life_app",
     },
     {
