@@ -28,7 +28,7 @@ const accessLinks = [
 
 const AboutMe: React.FC = () => {
     return (
-        <div className={style.container}>
+        <div className= {`${style.container} noselect`}>
             <h1>
                 {`<Lucas Rosate/>`}
             </h1>

@@ -6,6 +6,13 @@ import ImageProject from './imageproject';
 
 const projects: Array<IProject> = [
     {
+        title: "covid-world-map",
+        images: ["https://i.imgur.com/lWsLhLo.png"],
+        description: "Este é um app inteiramente autônomo, que pega informações sobre o COVID mundialmente, processa e as salva todo dia às 10:00 da manhã no banco de dados (MySQL).",
+        technologies: ["Next.js", "react-simple-maps", "styled-components", "django", "django-rest-api", "APScheduler", "MySQL"],
+        accessLink: "https://github.com/lucasrosate/covid-world-map",
+    },
+    {
         title: "4life",
         images: ["https://i.imgur.com/8e0ltt7.png", "https://i.imgur.com/hiNNAGg.png", "https://i.imgur.com/GG6sfQf.png", "https://i.imgur.com/zMIOsni.png"],
         description: "A ideia era criar um app para organizar tarefas, a vida financeira e também para cuidar da alimentação.",
@@ -60,7 +67,7 @@ const Projects: React.FC = () => {
     return (
         <div className={style.container}>
             <div className={style.projectscontainer}>
-                <h1>
+                <h1 className="noselect">
                     Projetos
                 </h1>
                 {windowVisible ? <ImageProject link={currentLink} handleCloseWindowImage={handleCloseWindowImage} /> : null}

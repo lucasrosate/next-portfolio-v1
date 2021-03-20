@@ -108,7 +108,7 @@ const languages: ILanguage[] = [
 
 const Habilities: React.FC = () => {
     return (
-        <div className={style.container}>
+        <div className={`${style.container} noselect`}>
             <div className={style.layoutboxcontainer}>
                 <h1>Habilidades</h1>
 
