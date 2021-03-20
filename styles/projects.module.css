@@ -26,7 +26,6 @@
     margin-right: auto;
     margin-top: 25px;
     width: 75%;
-    
     overflow: hidden;
 }
 
@@ -58,6 +57,7 @@
 }
 
 .projectdetailsbox {
+    bottom: 0;
     width: 100%;
     border-top: 1px solid var(--border-line-less-visible);
     margin-left: auto;
@@ -148,5 +148,14 @@
 
     .projectdetailsbox {
         grid-template-columns: 6fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px)  {
+    .layoutbox {
+        grid-template-rows: 300px;
+    }
+    .projectsbox {
+        height: 450px;
     }
 }
