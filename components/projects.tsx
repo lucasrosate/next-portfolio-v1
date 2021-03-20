@@ -8,7 +8,7 @@ const projects: Array<IProject> = [
     {
         title: "covid-world-map",
         images: ["https://i.imgur.com/lWsLhLo.png"],
-        description: "Este é um app inteiramente autônomo, que pega informações sobre o COVID mundialmente, processa e as salva todo dia às 10:00 da manhã no banco de dados (MySQL).",
+        description: "Este é um app inteiramente autônomo, que pega informações sobre o COVID mundialmente, processa e as salva todo dia às 10:00 no banco de dados (MySQL).",
         technologies: ["Next.js", "react-simple-maps", "styled-components", "django", "django-rest-api", "APScheduler", "MySQL"],
         accessLink: "https://github.com/lucasrosate/covid-world-map",
     },
