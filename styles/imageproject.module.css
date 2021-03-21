@@ -22,7 +22,7 @@
 
     display: grid;
 
-    grid-template-rows: 1fr 10fr;
+    grid-template-rows: 60px auto;
     grid-template-columns: 100%;
 
     border-radius: 10px;
@@ -40,7 +40,7 @@
 }
 
 .exitbuttoncontainer button {
-    width: 80px;
+    width: 65px;
     height: 35px;
     background-color: var(--background-color-lighter);
     border: 1px solid var(--border-line-less-visible);
@@ -51,6 +51,7 @@
 
 .exitbuttoncontainer button:hover {
     box-shadow: var(--border-line-less-visible) 1px 1px 3px, var(--border-line-less-visible) -1px 1px 3px;
+    -webkit-box-shadow: var(--border-line-less-visible) 1px 1px 3px;
 }
 
 .exitbuttoncontainer button:focus {
@@ -66,7 +67,8 @@
 }
 
 .imageproject img {
-    width: 75%;
+    max-height: 95%;
+    width: 95%;
 
     margin: auto;
 

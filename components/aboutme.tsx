@@ -30,7 +30,7 @@ const AboutMe: React.FC = () => {
     return (
         <div className= {`${style.container} noselect`}>
             <h1>
-                {`<Lucas Rosate/>`}
+                {`<Lucas Rosate />`}
             </h1>
 
             <div className={style.landingLayout}>
@@ -40,7 +40,7 @@ const AboutMe: React.FC = () => {
                         </h3>
 
                     <h4>
-                        Sou estudante de engenharia fascinado por programação.
+                        Sou estudante de engenharia, e entusiasta em desenvolvimento web/software e ciência de dados.
                         No tempo livre codar é um dos meus hobbies preferidos, abaixo estão listados os projetos que eu fiz recentemente, espero que gostem 🙂.
                         </h4>
                 </div>

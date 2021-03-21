@@ -3,6 +3,10 @@
   height: auto;
 }
 
+.container h1 {
+  font-size: 1.8rem;
+}
+
 .landingLayout {
   display: grid;
   grid-template-columns: 1.8fr 1fr;
@@ -28,13 +32,13 @@
 
 .landingText h4 {
   width: 100%;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-align: justify;
   font-weight: 300;
   color: var(--text-color-2);
   margin-top: 15px;
 
-  line-height: 160%;
+  line-height: 170%;
 }
 
 .profileImage {
@@ -70,6 +74,7 @@
 @media screen and (max-width: 900px) {
   .container h1 {
     padding: 20px 30px;
+    font-size: 1.4rem;
   }
 
   .landingLayout {
@@ -78,8 +83,9 @@
   }
 
   .landingText h3 {
+    margin-top: 20px;
     width: 100%;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
   }
 
   .landingText h4 {
@@ -87,6 +93,11 @@
   }
 
   .profileImage {
+    margin-top: 20px;
     width: 200px;
+  }
+
+  .contacts {
+    margin-top: 40px;
   }
 }

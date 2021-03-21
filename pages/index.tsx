@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <div className="App">
             <Head>
-                <title>Lucas Rosate</title>
+                <title>Portfolio - Lucas Rosate</title>
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
                 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500&family=Source+Code+Pro:wght@300;400;500&display=swap" rel="stylesheet" />

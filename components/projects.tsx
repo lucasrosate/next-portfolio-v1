@@ -70,7 +70,7 @@ const Projects: React.FC = () => {
                 <h1 className="noselect">
                     Projetos
                 </h1>
-                {windowVisible ? <ImageProject link={currentLink} handleCloseWindowImage={handleCloseWindowImage} /> : null}
+                {windowVisible && <ImageProject link={currentLink} handleCloseWindowImage={handleCloseWindowImage} /> }
                 {
                     projects.map((project, projectID) =>
 
